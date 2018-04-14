@@ -1,0 +1,21 @@
+/*
+* @Author: 13350
+* @Date:   2018-03-21 20:48:34
+* @Last Modified by:   13350
+* @Last Modified time: 2018-03-21 20:56:57
+*/
+.box{
+	width: 100px;
+	height: 100px;
+	margin: 200px auto;
+	animation: jz 2s steps(8) infinite;
+}
+@keyframes jz{
+	0%{
+       
+       background: url('loader.png') no-repeat 0 0;
+	}
+	100%{
+       background: url('loader.png') no-repeat -800px 0;
+	}
+}
